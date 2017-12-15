@@ -1,0 +1,172 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Example 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="./_assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/css/slider.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/css/footer.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="row">
+        <img src="./_assets/media/logo.png" class="header__logo img_responsive" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-11 offset-md-2 offset-lg-1">
+          <div class="header__linkArea">
+            <div class="menuIcon__container" id="menuIcon">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <a href="javascript:;" class="header__link">Home Page</a>
+            <a href="javascript:;" class="header__link">About Us</a>
+            <a href="javascript:;" class="header__link">We Press</a>
+            <a href="javascript:;" class="header__link">Gallery</a>
+            <a href="javascript:;" class="header__link">Order</a>
+            <a href="javascript:;" class="header__link">Contact</a>
+          </div>
+          <div class="header__basketItemsArea">
+            <a href="javascript:;" class="header__link header__basketItem">Login</a>
+            <span class="header__searchBox">
+              <input type="text" class="header__Search header__basketItem"
+                placeholder="Search Something..." id="searchInput">
+              <a href="javascript:;" class="header__link header__basketItem" id="searchIcon">
+                <i class="fa fa-search"></i>
+              </a>
+            </span>
+            <a href="javascript:;" class="header__link header__basketItem">
+              <i class="fa fa-shopping-basket "></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div id="toggleMenu">
+            <div class="toggleMenuArea">
+              <div class="toggleMenuArea__linksArea">
+                <a href="javascript:;" class="toggleMenuArea__links">Home Page</a>
+                <a href="javascript:;" class="toggleMenuArea__links">About Us</a>
+                <a href="javascript:;" class="toggleMenuArea__links">We Press</a>
+                <a href="javascript:;" class="toggleMenuArea__links">Gallery</a>
+                <a href="javascript:;" class="toggleMenuArea__links">Order</a>
+                <a href="javascript:;" class="toggleMenuArea__links">Contact</a>
+                <span class="toggleMenuArea__formBox">
+                  <input type="text" class="header__Search toggleMenuArea__links toggleMenuArea__search"
+                    placeholder="Search Something..." id="searchInput">
+                    <span class="toggleMenuArea__searchIcon"><i class="fa fa-search"></i></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('./_assets/media/ac.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>First Slide</h3>
+            <p>This is a description for the first slide.</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./_assets/media/anchor_drawing_vector_dark_93570_1920x1080.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Second Slide</h3>
+            <p>This is a description for the second slide.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./_assets/media/img2.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="prev"><i class="fa fa-angle-left"></i></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="next"><i class="fa fa-angle-right"></i></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <footer>
+    <span class="footer__toggleButton" id="footer__toggleButton">
+      <i class="fa fa-bars" id="fa-plus"></i>
+    </span>
+    <div id="footer__firstArea">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-lg-3 column">
+            <h6 class="footer__title">Information</h6>
+            <a href="#" class="footer_link">Lorem</a>
+            <a href="#" class="footer_link">Link pipisum</a>
+            <a href="#" class="footer_link">Loram ipsum</a>
+            <a href="#" class="footer_link">Lorem Lotr</a>
+            <a href="#" class="footer_link">Lorem Kotr</a>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3 column">
+            <h6 class="footer__title">Contact</h6>
+            <a href="#" class="footer_link">Lorem</a>
+            <a href="#" class="footer_link">Link pipisum</a>
+            <a href="#" class="footer_link">Loram ipsum</a>
+            <a href="#" class="footer_link">Lorem Lotr</a>
+            <a href="#" class="footer_link">Lorem Kotr</a>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3 column">
+            <h6 class="footer__title">About Us</h6>
+            <a href="#" class="footer_link">Lorem</a>
+            <a href="#" class="footer_link">Link pipisum</a>
+            <a href="#" class="footer_link">Loram ipsum</a>
+            <a href="#" class="footer_link">Lorem Lotr</a>
+            <a href="#" class="footer_link">Lorem Kotr</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer__secondArea">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <span class="footer__bankCardItem"><i class="fa fa-cc-mastercard"></i></span>
+            <span class="footer__bankCardItem"><i class="fa fa-credit-card"></i></span>
+            <span class="footer__bankCardItem"><i class="fa fa-cc-paypal"></i></span>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <span class="footer__copyright">All Rights Reserved &copy</span>
+          </div>
+          <div class="col-xs-12 col-sm-4 footer__socialmediaBox">
+            <a href="javascript:;" class="footer__socialmediaItem"><i class="fa fa-facebook"></i></a>
+            <a href="javascript:;" class="footer__socialmediaItem"><i class="fa fa-twitter"></i></a>
+            <a href="javascript:;" class="footer__socialmediaItem"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./_assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+  <script src="./_assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./_assets/js/nav.js"></script>
+  <script src="./_assets/js/slider.js"></script>
+  <script src="./_assets/js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+footer {
+  position: fixed;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .9);
+  z-index: 5;
+}
+
+#footer__firstArea {
+  display: none;
+  margin: 20px 0;
+}
+
+#footer__secondArea {
+  height: 40px;
+  line-height: 40px;
+  max-height: 40px;
+  background-color: rgba(100, 100, 100, .1) !important;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: unset;
+}
+
+.footer__bankCardItem {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.footer__copyright {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer__socialmediaItem {
+  color: #ffffff;
+  opacity: .2;
+  transition: .3s;
+  margin-right: 5px;
+}
+
+.footer__socialmediaItem:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.footer__socialmediaBox {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .footer__bankCardItem {
+      display: none;
+  }
+}
+
+.footer__toggleButton {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 5px 10px;
+  top: -22px;
+  font-size: 12px;
+  background-color: rgba(0,0,0,.9);
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 5;
+}
+
+#footer__firstArea .column {
+  border-right: 1px dotted #ffffff;
+}
+
+#footer__firstArea .column:last-child {
+  border: none;
+}
+
+.footer__title {
+  color: #ffffff;
+}
+
+.footer_link {
+  display: block;
+  color: #ffffff;
+  opacity: .4;
+  transition: .3s;
+}
+
+.footer_link:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  #footer__firstArea .column {
+    border-right: none !important;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  #footer__firstArea .column:last-child {
+    margin-bottom: 0;
+  }
+}
